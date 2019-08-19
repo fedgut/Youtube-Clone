@@ -96,10 +96,10 @@ main {
 main .main-content, main .other-videos {
   height: calc(100vh - 55px);
   overflow-y: auto;
+  padding-top: .5rem;
 }
 
-.other-videos {
-  }
+.other-videos {}
 
 .video-thumbnail {
   display: grid;
@@ -110,14 +110,14 @@ main .main-content, main .other-videos {
 
 .thumbnail-content h3 {
   margin: 0px;
-  font-size: 1.15rem;
+  font-size: 1rem;
   max-width: 90%;
 }
 
 .thumbnail-content p {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   margin: 0px;
-  margin-top: 0.25rem;
+  margin-top: 0.35rem;
   color: slategray;
   max-width: 60%;
 }
