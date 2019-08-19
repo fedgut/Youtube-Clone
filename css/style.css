@@ -168,3 +168,54 @@ main .video-actions {
 .video-actions a:hover {
   border-bottom: 2px solid slategray;
 }
+
+.video-meta {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 1.5rem;
+}
+
+.video-meta .uploader-info p {
+  margin: 0;
+  color: slategray;
+}
+.video-meta .uploader-info .name {
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: black;
+}
+
+.video-uploader {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  grid-column-gap: 1.25rem;
+}
+
+.video-uploader img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.subscribe {
+  background-color: #ce0000;
+  color: white;
+  border: none;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  word-spacing: .5rem;
+}
+
+.subscribe:focus {
+  outline: none;
+}
+
+.video-description {
+  width: 90%;
+  padding-left: 7.7rem;
+}
