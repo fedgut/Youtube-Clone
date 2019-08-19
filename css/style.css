@@ -40,7 +40,7 @@ nav {
 
 nav .brand,
 nav .search,
-nav .links {
+nav .links, {
   display: flex;
   align-items: center;
 }
@@ -131,4 +131,26 @@ main .main-content, main .other-videos {
   height: 60vh;
   margin: .9rem auto;
   display: block;
+}
+
+.main-content h2  {
+  margin: auto;
+  width: 90%;
+}
+.video-actions {
+  width: 90%;
+  margin: .9rem;
+}
+
+main .video-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+span .icons-container {
+  display: flex;
+}
+
+.video-actions .icon {
+  height: 21px;
 }
