@@ -12,8 +12,10 @@ body {
 * {
   box-sizing: border-box;
 }
-
 img {
+  max-width: 100%;
+}
+nav  img {
   width: 20px;
 }
 
@@ -94,5 +96,28 @@ main {
 main .main-content, main .other-videos {
   height: calc(100vh - 55px);
   overflow-y: auto;
-  background: yellow;
+}
+
+.other-videos {
+  }
+
+.video-thumbnail {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-column-gap: .5rem;
+  padding:  15px;
+}
+
+.thumbnail-content h3 {
+  margin: 0px;
+  font-size: 1.15rem;
+  max-width: 90%;
+}
+
+.thumbnail-content p {
+  font-size: 0.85rem;
+  margin: 0px;
+  margin-top: 0.25rem;
+  color: slategray;
+  max-width: 60%;
 }
