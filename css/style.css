@@ -121,3 +121,14 @@ main .main-content, main .other-videos {
   color: slategray;
   max-width: 60%;
 }
+
+.main-content {
+  padding-left: 1rem;
+}
+
+.main-video {
+  width: 90%;
+  height: 60vh;
+  margin: .9rem auto;
+  display: block;
+}
