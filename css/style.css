@@ -135,6 +135,7 @@ main .main-content, main .other-videos {
   height: 60vh;
   margin: .9rem auto;
   display: block;
+  border: none;
 }
 
 .main-content h2  {
