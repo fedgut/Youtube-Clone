@@ -84,6 +84,10 @@ nav .search input {
   font-weight: 500;
 }
 
+.search .search-button {
+  height: auto;
+}
+
 nav .search input:focus {
   outline: none;
 }
@@ -95,7 +99,6 @@ main {
 }
 
 main .main-content, main .other-videos {
-  height: calc(100vh - 55px);
   overflow-y: auto;
   padding-top: .5rem;
 }
