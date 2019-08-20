@@ -13,9 +13,15 @@ body {
   box-sizing: border-box;
   transition: all ease-in-out .3s;
 }
+
 img {
   max-width: 100%;
 }
+
+button:focus {
+  outline: none;
+}
+
 nav  img {
   width: 20px;
 }
@@ -78,14 +84,39 @@ nav .search {
   margin: 0 5% 0 15%;
 }
 
-nav .search input {
+nav .search-container {
   width: 80%;
   font-size: 1rem;
   font-weight: 500;
+  border: 1px solid #cfcfcf;
+  border-right: none;
+  padding: 0 .25rem;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.search-container input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
 }
 
 .search .search-button {
+  background-color: #f8f8f8;
   height: auto;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.search-button img {
+  width: 15px;
 }
 
 nav .search input:focus {
@@ -213,10 +244,6 @@ main .video-actions {
   text-transform: uppercase;
   padding: 0.5rem 1rem;
   word-spacing: .5rem;
-}
-
-.subscribe:focus {
-  outline: none;
 }
 
 .video-description {
